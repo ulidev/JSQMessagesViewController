@@ -50,9 +50,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IoB-ec-DZb">
-                                <rect key="frame" x="221" y="72" width="10" height="10"/>
-                                <color key="backgroundColor" red="1" green="0.28627450980000002" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IoB-ec-DZb">
+                                <rect key="frame" x="221" y="70" width="10" height="10"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="KSc-A8-fxx"/>
                                     <constraint firstAttribute="width" constant="10" id="VaZ-vC-Wid"/>
@@ -66,7 +65,7 @@
                             <constraint firstItem="2qm-c6-OZf" firstAttribute="top" secondItem="2zh-vR-QJW" secondAttribute="top" id="DbW-Cx-zOW"/>
                             <constraint firstItem="2qm-c6-OZf" firstAttribute="leading" secondItem="2zh-vR-QJW" secondAttribute="leading" id="H1H-yn-Raq"/>
                             <constraint firstItem="vLY-aM-0Dr" firstAttribute="top" secondItem="2zh-vR-QJW" secondAttribute="top" id="RiG-21-Bqc"/>
-                            <constraint firstAttribute="bottom" secondItem="IoB-ec-DZb" secondAttribute="bottom" constant="12" id="SZR-oX-oZ2"/>
+                            <constraint firstAttribute="bottom" secondItem="IoB-ec-DZb" secondAttribute="bottom" constant="14" id="SZR-oX-oZ2"/>
                             <constraint firstAttribute="trailing" secondItem="IoB-ec-DZb" secondAttribute="trailing" constant="13" id="USO-wU-JGb"/>
                             <constraint firstAttribute="bottom" secondItem="vLY-aM-0Dr" secondAttribute="bottom" id="UbF-Bl-Q7v"/>
                             <constraint firstItem="IoB-ec-DZb" firstAttribute="leading" secondItem="vLY-aM-0Dr" secondAttribute="trailing" id="fMU-PP-dpg"/>
@@ -134,6 +133,8 @@
                 <outlet property="messageBubbleImageView" destination="2qm-c6-OZf" id="bpy-Gv-jSh"/>
                 <outlet property="messageBubbleTopLabel" destination="p52-YN-yLu" id="SLH-sA-Chu"/>
                 <outlet property="messageBubbleTopLabelHeightConstraint" destination="8TB-va-f8L" id="FNt-BS-Wxi"/>
+                <outlet property="stateImage" destination="IoB-ec-DZb" id="8ue-32-m8b"/>
+                <outlet property="stateImageView" destination="IoB-ec-DZb" id="iwO-k8-ARr"/>
                 <outlet property="textView" destination="vLY-aM-0Dr" id="YEp-mW-xIY"/>
                 <outlet property="textViewBottomVerticalSpaceConstraint" destination="UbF-Bl-Q7v" id="KHP-49-3u4"/>
                 <outlet property="textViewMarginHorizontalSpaceConstraint" destination="7rI-Nc-AK3" id="ciu-j6-IpH"/>

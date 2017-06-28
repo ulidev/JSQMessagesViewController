@@ -22,6 +22,13 @@
  *  A `JSQMessagesCollectionViewCellOutgoing` object is a concrete instance 
  *  of `JSQMessagesCollectionViewCell` that represents an outgoing message data item.
  */
-@interface JSQMessagesCollectionViewCellOutgoing : JSQMessagesCollectionViewCell
 
+typedef NS_ENUM(NSInteger, OutgoingCellState) {
+    OutgoingCellStateWaiting,
+    OutgoingCellStateSending,
+    OutgoingCellStateSended
+};
+
+@interface JSQMessagesCollectionViewCellOutgoing : JSQMessagesCollectionViewCell
+@property (nonatomic, assign) OutgoingCellState cellState;
 @end
