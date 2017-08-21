@@ -22,11 +22,11 @@
 //  https://github.com/jessesquires/JSQMessagesViewController/issues/237
 //  ********************************
 
-"load_earlier_messages" = "Load Earlier Messages";
+"load_earlier_messages" = "Carregar més missatges";
 
-"send" = "Send";
+"send" = "Enviar";
 
-"new_message" = "New Message";
+"new_message" = "Nou missatge";
 
 "text_message_accessibility_label" = "%@: %@";
 
